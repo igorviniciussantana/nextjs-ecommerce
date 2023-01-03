@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-       <h1 className='text-3xl font-bold underline text-green-700'>Igor Clothes</h1>
+       <h1 className='text-3xl font-bold text-green-700'>Igor Clothes</h1>
       </main>
     </>
   )
