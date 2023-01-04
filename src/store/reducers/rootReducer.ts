@@ -1,7 +1,7 @@
-import { combineReducers } from 'redux'
+import { AnyAction, combineReducers } from 'redux'
 
-const rootReducers = combineReducers({
+const rootReducer = combineReducers({
 
 })
 
-export default rootReducers;
+export default rootReducer;
