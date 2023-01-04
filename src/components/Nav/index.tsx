@@ -8,7 +8,7 @@ export default function Nav() {
       <Styled.Ul>
         {menuLinks.map((item) => {
           return (
-            <Styled.Li>
+            <Styled.Li className="hover:text-purple-800 transition-all">
               <Link href={item.url} key='title'>{item.title}</Link>
             </Styled.Li>
           );

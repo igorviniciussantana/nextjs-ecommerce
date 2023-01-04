@@ -1,13 +1,10 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const Nav = styled.nav`
-
-`
+export const Nav = styled.nav``;
 
 export const Ul = styled.ul`
-display: flex;
-`
+  display: flex;
+  gap: 1rem;
+`;
 
-export const Li = styled.li`
-
-`
+export const Li = styled.li``;
