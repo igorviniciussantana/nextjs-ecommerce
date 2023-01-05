@@ -6,6 +6,8 @@ interface CardProps {
   img: string;
   width?: number;
   height?: number;
+  title: string;
+  price: string;
 }
 
 export default function Card(props: CardProps) {
@@ -20,6 +22,10 @@ export default function Card(props: CardProps) {
           height={props.height}
         />
       </Styled.Box>
+      <Styled.Content>
+        <Styled.Title>{props.title}</Styled.Title>
+        <Styled.Price>{props.price}</Styled.Price>
+      </Styled.Content>
     </Styled.Card>
   );
 }

@@ -28,3 +28,15 @@ img{
     transition-timing-function: cubic-bezier(1, 0.01, 0, 1.07);
 }
 `
+
+
+export const Content = styled.div`
+width: 100%;
+padding: 0.5rem 0;
+`
+
+export const Title = styled.p`
+`
+
+export const Price = styled.span`
+`
