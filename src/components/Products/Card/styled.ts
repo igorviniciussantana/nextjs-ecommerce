@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled.article`
-width: 16%;
+width: 25%;
 position: relative;
 `
 
