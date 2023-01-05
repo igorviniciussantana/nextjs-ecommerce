@@ -14,9 +14,9 @@ interface CardProps {
 export default function Card(props: CardProps) {
   return (
     <Styled.Card>
-      <Styled.Box>
+      <Styled.Box className="card-box">
         <Image className="img-fallback" src={props.img} alt={props.alt} fill />
-        <Styled.Actions>
+        <Styled.Actions className="card-actions">
           <Styled.Icon>
             <Eye weight="light" />
           </Styled.Icon>

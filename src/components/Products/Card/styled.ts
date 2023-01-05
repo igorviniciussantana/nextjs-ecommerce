@@ -3,6 +3,24 @@ import styled from "styled-components";
 export const Card = styled.article`
   width: 25%;
   position: relative;
+
+  &:hover{
+    img{
+        transform: scale(1.1)
+    }
+
+    .card-box{
+        &:after{
+            height: 100%;
+            background-color: rgba(0,0,0,0.5)
+        }
+    }
+
+    .card-actions{
+        opacity: 1;
+        top: 50%;
+    }
+  }
 `;
 
 export const Box = styled.div`
@@ -56,7 +74,11 @@ background-color: white;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: ease 0.4s all
+transition: ease 0.4s all;
+
+&:hover{
+    transform: scale(1.1)
+}
 `;
 
 
