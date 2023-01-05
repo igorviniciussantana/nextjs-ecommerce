@@ -6,7 +6,9 @@ position: relative;
 `
 
 export const Box = styled.div`
-width: 100%;
+width: 30%;
+aspect-ratio: 2/3;
+
 position: relative;
 overflow: hidden;
 

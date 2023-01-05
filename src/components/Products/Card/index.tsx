@@ -14,13 +14,7 @@ export default function Card(props: CardProps) {
   return (
     <Styled.Card>
       <Styled.Box>
-        <Image
-          className="img-fallback"
-          src={props.img}
-          alt={props.alt}
-          width={props.width}
-          height={props.height}
-        />
+        <Image className="img-fallback" src={props.img} alt={props.alt} fill/>
       </Styled.Box>
       <Styled.Content>
         <Styled.Title>{props.title}</Styled.Title>
