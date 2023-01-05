@@ -7,7 +7,7 @@ interface CardProps {
   width?: number;
   height?: number;
   title: string;
-  price: string;
+  price: number;
 }
 
 export default function Card(props: CardProps) {
