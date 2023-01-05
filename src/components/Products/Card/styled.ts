@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Card = styled.article`
-width: 100%;
+width: 16%;
 position: relative;
 `
 
 export const Box = styled.div`
-width: 30%;
+width: 100%;
 aspect-ratio: 2/3;
 
 position: relative;
