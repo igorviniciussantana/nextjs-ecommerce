@@ -1,5 +1,6 @@
 import * as Styled from "./styled";
 import Image from "next/image";
+import { Eye, Link } from "phosphor-react";
 
 interface CardProps {
   alt: string;
@@ -14,7 +15,15 @@ export default function Card(props: CardProps) {
   return (
     <Styled.Card>
       <Styled.Box>
-        <Image className="img-fallback" src={props.img} alt={props.alt} fill/>
+        <Image className="img-fallback" src={props.img} alt={props.alt} fill />
+        <Styled.Actions>
+          <Styled.Icon>
+            <Eye weight="light" />
+          </Styled.Icon>
+          <Styled.Icon>
+            <Link weight="light" />
+          </Styled.Icon>
+        </Styled.Actions>
       </Styled.Box>
       <Styled.Content>
         <Styled.Title>{props.title}</Styled.Title>
