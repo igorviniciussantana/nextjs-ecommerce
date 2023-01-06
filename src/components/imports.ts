@@ -5,6 +5,7 @@ import Card from './Products/Card'
 import Highlights from "./Products/Highlights";
 import Heading from "./Utils/Heading";
 import TitleBox  from "./Utils/Heading/titleBox";
+import SliderList from "./Products/SliderList";
 
 
 export{
@@ -14,5 +15,6 @@ export{
     Card,
     Highlights,
     Heading,
-    TitleBox
+    TitleBox,
+    SliderList
 }
