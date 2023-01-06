@@ -27,7 +27,7 @@ export default function Card(props: CardProps) {
       </Styled.Box>
       <Styled.Content>
         <Styled.Title>{props.title}</Styled.Title>
-        <Styled.Price>{props.price}</Styled.Price>
+        <Styled.Price>R$ {props.price}</Styled.Price>
       </Styled.Content>
     </Styled.Card>
   );
