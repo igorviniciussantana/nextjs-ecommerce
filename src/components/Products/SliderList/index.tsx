@@ -1,11 +1,18 @@
-import { Card } from "@components/imports";
+import { Heading, Section, TitleBox } from "@components/imports";
 import * as Styled from "./styled";
 
+interface SliderList{
+  
+}
 
 export default function SliderList() {
   return (
-    <Styled.SliderList className="mx-auto">
-      
-    </Styled.SliderList>
+    <Section className="mx-auto">
+      <TitleBox>
+        <Heading>
+          {props.title}
+        </Heading>
+      </TitleBox>
+    </Section>
   );
 }

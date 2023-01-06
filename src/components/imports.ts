@@ -6,6 +6,7 @@ import Highlights from "./Products/Highlights";
 import Heading from "./Utils/Heading";
 import TitleBox  from "./Utils/Heading/titleBox";
 import SliderList from "./Products/SliderList";
+import Section from "./Utils/Section";
 
 
 export{
@@ -16,5 +17,6 @@ export{
     Highlights,
     Heading,
     TitleBox,
-    SliderList
+    SliderList,
+    Section
 }
