@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 interface HeadingProps{
-marginBottom: string;
-align: string;
+marginBottom?: string;
+align?: string;
 }
 
 export const TitleBox = styled.div<HeadingProps>`
