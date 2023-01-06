@@ -3,6 +3,8 @@ import Nav from "./Nav";
 import HeaderProfile from "./HeaderProfile";
 import Card from './Products/Card'
 import Highlights from "./Products/Highlights";
+import Heading from "./Utils/Heading";
+import TitleBox  from "./Utils/Heading/titleBox";
 
 
 export{
@@ -10,5 +12,7 @@ export{
     Nav,
     HeaderProfile,
     Card,
-    Highlights
+    Highlights,
+    Heading,
+    TitleBox
 }
