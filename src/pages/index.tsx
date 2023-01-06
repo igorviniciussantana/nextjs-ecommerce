@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Highlights, Heading } from "@components/imports";
+import { Highlights, Heading, TitleBox } from "@components/imports";
 
 export default function Home() {
   return (
@@ -14,8 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto px-24">
-      <Highlights />
-      <Heading type="h1" className='text-3xl font-semibold' >Meu titulo</Heading>
+        <Highlights />
+        <TitleBox>
+          <Heading type="h1" className="text-3xl font-semibold">
+            Meu titulo
+          </Heading>
+        </TitleBox>
       </main>
     </>
   );

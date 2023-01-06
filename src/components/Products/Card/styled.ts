@@ -89,4 +89,6 @@ export const Content = styled.div`
 
 export const Title = styled.p``;
 
-export const Price = styled.span``;
+export const Price = styled.span`
+font-weight: 600;
+`;
