@@ -2,7 +2,7 @@ import * as Styled from "./styled";
 import Image from "next/image";
 import { Eye, Link } from "phosphor-react";
 
-interface CardProps {
+export interface CardProps {
   alt: string;
   img: string;
   width?: number;

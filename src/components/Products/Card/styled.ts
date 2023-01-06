@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { CardProps } from ".";
 
 export const Card = styled.article`
-  width: 25%;
+  min-width: 25%;
   position: relative;
+
 
   &:hover{
     img{

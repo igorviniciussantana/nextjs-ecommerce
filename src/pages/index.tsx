@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Highlights, Heading, TitleBox } from "@components/imports";
+import { Highlights, Heading, TitleBox, SliderList } from "@components/imports";
 
 export default function Home() {
   return (
@@ -15,11 +15,8 @@ export default function Home() {
       </Head>
       <main className="container mx-auto px-24">
         <Highlights />
-        <TitleBox>
-          <Heading type="h1" className="text-3xl font-semibold">
-            Meu titulo
-          </Heading>
-        </TitleBox>
+          <SliderList title="Camisetas"/>
+        
       </main>
     </>
   );
