@@ -17,6 +17,8 @@ export default function SliderList(props : SliderList) {
           {props.title}
         </Heading>
       </TitleBox>
+
+      <Styled.SlideBox>
       <Swiper
       modules={[Navigation]}
       navigation
@@ -44,6 +46,7 @@ export default function SliderList(props : SliderList) {
 </SwiperSlide>
 
       </Swiper>
+      </Styled.SlideBox>
     </Section>
   );
 }
