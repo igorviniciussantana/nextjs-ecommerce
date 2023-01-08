@@ -1,4 +1,6 @@
 import { Image, Gallery } from "./Image";
+import { Category } from "./Category";
+import { Variations } from "./Variation";
 
 interface ProductAttributes{
     title: string;
@@ -8,6 +10,8 @@ interface ProductAttributes{
     highlight: boolean;
     thumbnail: Image;
     gallery: Gallery[];
+    category: Category;
+    variation: Variations[];
 }
 
 
