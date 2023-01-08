@@ -18,7 +18,7 @@
     "paths": {
       "@components/*":["./src/components/*"],
       "@styles/*":["./src/styles/*"],
-      "@http/*":["./src/http/*"],
+      "@api/*":["src/api/*"],
       "@public/*":["./public/*"],
     }
   },
